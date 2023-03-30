@@ -1,0 +1,252 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(236, 242, 255, 1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 764px;
+    background: white;
+}
+
+.top-div {
+    padding: 6.4% 15.2% 10.6% 15.2%;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 32px 32px;;
+}
+
+.top-div h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #CAC9FF;
+    margin-bottom: 2.9%;
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50% ;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+}
+
+.circle h1 {
+    color: white;
+    margin-top: 25px;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: center;    
+}
+
+.circle h2 {
+    line-height: 21px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin-top: 2.9%;
+}
+
+.top-div p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #CAC9FF;   
+}
+
+.score-div {
+    padding: 24px 8% 30px 8%;
+}
+
+h4 {
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303B59; 
+}
+
+.component {
+    display: flex;
+    padding: 17px 6.3% 17px 6.3%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    border-radius: 12px;
+}
+
+.img {
+    display: flex;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 13.67px;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+}
+
+.result h6 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #303B59;
+}
+
+.outof {
+    margin-left: 8px;
+}
+
+.first {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+
+.first h5 {
+    color: #FF5555;
+}
+
+.second {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+
+.second h5 {
+    color: #FFB21E;
+}
+
+.third {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+
+.third h5 {
+    color: #00BB8F;
+}
+
+.fourth {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+
+.fourth h5 {
+    color: #1125D6;
+}
+
+button {
+    width: 100%;
+    height: 56px;
+    border: 0;
+    background: #303B59;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    color: white;
+    border-radius: 128px;
+    margin-top: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: #ECF2FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        background: #FFFFFF;
+        width: 51.1%;
+        display: flex;
+        flex-direction: row;
+        border-radius: 32px;
+    }
+
+    .top-div {
+        border-radius: 32px;
+        padding-right: 54px;
+        padding-left: 54px;
+        width: 50%;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .circle h1 {
+        margin-top: 55px;
+        font-size: 72px;
+    }
+
+    .circle h2 {
+        font-size: 18px;
+        line-height: 23.45px;
+    }
+
+    h1 {
+        margin-top: 28px;
+        font-size: 32px;
+        line-height: 41.7px;
+    }
+
+    .top-div h2 {
+        margin-bottom: 32px;
+    }
+
+    .top-div p {
+        margin-top: 14px;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .score-div {
+        width: 50%;
+        padding-top: 38px;
+    }
+
+    h4 {
+        margin-bottom: 28px;
+    }
+
+    button {
+        margin-top: 26px;
+    }
+
+}
